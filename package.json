@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node backend/index. js",
+    "start": "node backend/index.js",
     "dev": "nodemon backend/index.js"
   },
   "repository": {
@@ -22,7 +22,8 @@
   "homepage": "https://github.com/Parakyadav-123/codemantra#readme",
   "dependencies": {
     "express": "^5.2.1",
-    "socket.io": "^4.8.3"
+    "socket.io": "^4.8.3",
+    "axios": "^1.7.9"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
